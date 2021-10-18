@@ -36,7 +36,7 @@ def get_wavname_and_label_from_a_line(line,emotionname_and_emotionindex=emotionn
     emotion_name = line_items[-1].strip()
     emotion_label = emotionname_and_emotionindex[emotion_name] # such '08'
     return wavname,emotion_label
-#
+# get all wave paths
 def get_all_wav_paths(file_dir):
     '''
     获取指定文件夹及其子文件夹下的所有.wav音频路径
